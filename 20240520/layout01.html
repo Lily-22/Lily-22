@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用Div排版</title>
+    <style>
+        body{
+            margin: 0px auto;
+        }
+        #container{
+            width: 80%;
+            background-color: rgb(189, 231, 241);
+            margin: 0px auto;
+        }
+        #header{
+            height: 300px;
+            background-color: rgb(237, 225, 178);
+        }
+        #nav{
+            height: 100px;
+            background-color: rgb(185, 235, 240);
+        }
+        #aside{
+            min-height: 800px;
+            width: 20%;
+            float: left;
+            background-color: rgb(173, 167, 223);
+        }
+        #section{
+            min-height: 1000px;
+            width: 80%;
+            float: left;
+            background-color: rgb(218, 210, 236);
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        #footer{
+            height: 200px;
+            clear: both;
+            background-color: rgb(180, 201, 230);
+        }
+        .products{
+            width: 80%;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0px auto;
+        }
+        .cake{
+            width: 250px;
+            height: 250px;
+            background-image: url(img/cake3.png);
+            background-repeat: no-repeat;
+            background-color: rgb(200, 198, 179);
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+        .item{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<div id="container">
+    <div id="header"></div>
+    <div id="nav"></div>
+    <div id="main">
+        <div id="aside"></div>
+        <div id="section">
+            <div class="products">
+                <div class="item">
+                    <div class="cake"></div>
+                    <h1>心的烘焙</h1>
+                    <p>嘗在口中，甜在心裡</p>
+                </div>
+                <div class="item">
+                    <div class="cake"></div>
+                    <h1>心的烘焙</h1>
+                    <p>嘗在口中，甜在心裡</p>
+                </div>
+                <div class="item">
+                    <div class="cake"></div>
+                    <h1>心的烘焙</h1>
+                    <p>嘗在口中，甜在心裡</p>
+                </div>
+                <div class="item">
+                    <div class="cake"></div>
+                    <h1>心的烘焙</h1>
+                    <p>嘗在口中，甜在心裡</p>
+                </div>
+                <div class="item">
+                    <div class="cake"></div>
+                    <h1>心的烘焙</h1>
+                    <p>嘗在口中，甜在心裡</p>
+                </div>
+                <div class="item">
+                    <div class="cake"></div>
+                    <h1>心的烘焙</h1>
+                    <p>嘗在口中，甜在心裡</p>
+                </div>
+                <div class="item">
+                    <div class="cake"></div>
+                    <h1>心的烘焙</h1>
+                    <p>嘗在口中，甜在心裡</p>
+                </div>
+                <div class="item">
+                    <div class="cake"></div>
+                    <h1>心的烘焙</h1>
+                    <p>嘗在口中，甜在心裡</p>
+                </div>
+                <div class="item">
+                    <div class="cake"></div>
+                    <h1>心的烘焙</h1>
+                    <p>嘗在口中，甜在心裡</p>
+                </div>
+                <div class="item">
+                    <div class="cake"></div>
+                    <h1>心的烘焙</h1>
+                    <p>嘗在口中，甜在心裡</p>
+                </div>
+                <div class="item">
+                    <div class="cake"></div>
+                    <h1>心的烘焙</h1>
+                    <p>嘗在口中，甜在心裡</p>
+                </div>
+                <div class="item">
+                    <div class="cake"></div>
+                    <h1>心的烘焙</h1>
+                    <p>嘗在口中，甜在心裡</p>
+                </div>
+                <div class="item">
+                    <div class="cake"></div>
+                    <h1>心的烘焙</h1>
+                    <p>嘗在口中，甜在心裡</p>
+                </div>
+                <div class="item">
+                    <div class="cake"></div>
+                    <h1>心的烘焙</h1>
+                    <p>嘗在口中，甜在心裡</p>
+                </div>
+                <div class="item">
+                    <div class="cake"></div>
+                    <h1>心的烘焙</h1>
+                    <p>嘗在口中，甜在心裡</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div id="footer"></div>
+</div>
+</body>
+</html>
